@@ -51,7 +51,7 @@ def play_word(player, word):
     player_to_words[player].append(word)
     print(f"Word '{word}' added for player {player}.")
     return True
-
+    # updates total point
 def update_point_totals():
     """Calculate and update player scores based on words played."""
     for player, words in player_to_words.items():
