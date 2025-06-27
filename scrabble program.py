@@ -20,6 +20,15 @@ player_to_words = {
     "Lexi Con": ["ERASER", "BELLY", "HUSKY"],
     "Prof Reader": ["ZAP", "COMA", "PERIOD"]
 }
+round_two={
+    "player1": ["LIFE", "TEACHER", "ENTRY"],
+    "wordNerd": ["SKY", "EARS", "MAN"],
+    "Lexi Con": ["ERASE", "BELL", "HAT"],
+    "Prof Reader": ["ZIP", "COMMAND", "PLAY"]
+
+}
+total_words= zip(player_to_words,round_two)
+print(total_words)
 
 # Dictionary to store player scores
 player_to_points = {}
